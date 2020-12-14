@@ -23,9 +23,13 @@
   .container {
     padding: 15px;
     width: 100%;
+    bottom: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+  }
+  .wrapper {
+    min-height: 95%;
   }
 }
