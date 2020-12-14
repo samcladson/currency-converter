@@ -100,6 +100,7 @@ const CurrencyConverter = () => {
             title="Input Amount"
           >
             <Input
+              pattern="^[0-9]*$"
               onChange={(e) =>
                 setCurrencyData((prestate) => {
                   return {
